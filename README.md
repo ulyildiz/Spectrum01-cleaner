@@ -27,9 +27,9 @@ A comprehensive Linux home directory cleaning utility that removes temporary fil
 
 1. **Download the script:**
    ```bash
-   wget https://raw.githubusercontent.com/ulyildiz/Spectrum01-cleaner/main/clean.sh
+   wget https://raw.githubusercontent.com/ulyildiz/Spectrum01-cleaner/main/spectrum01-cleaner.sh
    # or
-   curl -O https://raw.githubusercontent.com/ulyildiz/Spectrum01-cleaner/main/clean.sh
+   curl -O https://raw.githubusercontent.com/ulyildiz/Spectrum01-cleaner/main/spectrum01-cleaner.sh
    ```
 
    **Alternative: Clone the repository:**
