@@ -40,12 +40,12 @@ A comprehensive Linux home directory cleaning utility that removes temporary fil
 
 2. **Make it executable:**
    ```bash
-   chmod +x clean.sh
+   chmod +x spectrum01-cleaner.sh
    ```
 
 3. **Optional: Setup global alias:**
    ```bash
-   ./clean.sh setup
+   ./spectrum01-cleaner.sh setup
    ```
 
 ## Alias Setup
@@ -93,26 +93,26 @@ The alias setup will:
 
 ```bash
 # Run full system cleanup
-./clean.sh
+./spectrum01-cleaner.sh
 
 # Clean custom paths only
-./clean.sh addpath
+./spectrum01-cleaner.sh addpath
 
 # Setup global alias
-./clean.sh setup
+./spectrum01-cleaner.sh setup
 
 # Show help information
-./clean.sh help
+./spectrum01-cleaner.sh help
 ```
 
 ### Command Options
 
 | Command | Description |
 |---------|-------------|
-| `./clean.sh` | Run complete home directory cleanup |
-| `./clean.sh addpath` | Interactive custom path removal |
-| `./clean.sh setup` | Add global alias to ~/.zshrc |
-| `./clean.sh help` | Display help and usage information |
+| `./spectrum01-cleaner.sh` | Run complete home directory cleanup |
+| `./spectrum01-cleaner.sh addpath` | Interactive custom path removal |
+| `./spectrum01-cleaner.sh setup` | Add global alias to ~/.zshrc |
+| `./spectrum01-cleaner.sh help` | Display help and usage information |
 
 ## What Gets Cleaned
 
@@ -155,7 +155,7 @@ The alias setup will:
 ## Interactive Features
 
 ### 📁 **Custom Path Cleanup**
-When using `./clean.sh addpath`, you can:
+When using `./spectrum01-cleaner.sh addpath`, you can:
 
 1. **Add multiple paths** by entering them one by one
 2. **Use tilde expansion** (`~/Documents/old_project`)
@@ -221,7 +221,7 @@ Tested on:
 
 ### 🕐 **Regular Maintenance**
 - Run monthly for optimal system performance
-- Use `./clean.sh addpath` for project-specific cleanups
+- Use `./spectrum01-cleaner.sh addpath` for project-specific cleanups
 - Monitor disk usage with `ncdu` or `du -sh ~/*`
 
 ### 🔍 **Before Running**
@@ -261,7 +261,7 @@ chmod +x clean.sh
 ### Basic Usage
 ```bash
 # First-time setup
-./clean.sh setup                    # Add alias to shell
+./spectrum01-cleaner.sh setup                    # Add alias to shell
 source ~/.zshrc                     # Reload shell config
 
 # Daily usage with alias
@@ -271,7 +271,7 @@ sc                                 # Ultra-short alias
 
 # Specific tasks
 spectrum-clean addpath             # Clean specific directories
-./clean.sh help                    # Get help (works with or without alias)
+./spectrum01-cleaner.sh help                    # Get help (works with or without alias)
 ```
 
 ### Custom Path Cleanup Workflow
@@ -302,7 +302,7 @@ clean addpath                      # Remove project-specific clutter
 sc                                 # Quick cleanup
 
 # Setting up new machine
-./clean.sh setup                  # Add convenient alias
+./spectrum01-cleaner.sh setup                  # Add convenient alias
 ```
 
 ## Contributing
